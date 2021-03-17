@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+#home{
+    height:500px;
+    background-image: url(img/bg.jpg);
+    background-repeat:no-repeat;
+    background-color:lightslategrey;
+    background-position: center;
+    align-items:center;
+    margin:12px auto;
+    background-size:cover;
+    justify-content: center;
+    display:flex;
+    flex-direction:column;
+    background-blend-mode: difference;
+}
+main{
+    width:90vw;
+    margin:0 auto;
+    padding:30px 20px;
+}
+footer{
+    text-align:center;
+    background-color:lightgray;
+    color:cornflowerblue;
+    padding:20px;
+}
